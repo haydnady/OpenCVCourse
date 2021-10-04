@@ -1,2 +1,5 @@
 # Python virtual environement
 venv/
+
+# VSCode settings
+.vscode/
