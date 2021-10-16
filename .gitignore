@@ -3,3 +3,6 @@ venv/
 
 # VSCode settings
 .vscode/
+
+# OpenCV course downloaded materials.
+openCVForBeginnersCourseModules/
