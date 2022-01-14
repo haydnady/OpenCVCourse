@@ -5,4 +5,5 @@ venv/
 .vscode/
 
 # OpenCV course downloaded materials.
-openCVForBeginnersCourseModules/
+OpenCVBeginnersCourseModules/
+ComputerVision1CourseMaterial/
