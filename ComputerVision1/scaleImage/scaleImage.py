@@ -1,5 +1,3 @@
-
-
 import cv2
 
 maxScaleUp = 100
@@ -12,7 +10,7 @@ trackbarValue = "Scale"
 trackbarType = "Type: \n 0: Scale Up \n 1: Scale Down"
 
 # load an image
-im = cv2.imread("../data/images/truth.png")
+im = cv2.imread("truth.png")
 
 # Create a window to display results
 cv2.namedWindow(windowName, cv2.WINDOW_AUTOSIZE)
