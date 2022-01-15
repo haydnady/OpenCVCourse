@@ -29,10 +29,11 @@ def scaleImage(*args):
     if scaleFactor == 0:
         scaleFactor = 1
 
-    # Resize the image
+    # Resize the image up
     if scaleType == 0:
         scaledImage = cv2.resize(im, None, fx=scaleFactor, fy=scaleFactor, interpolation=cv2.INTER_LINEAR)
         cv2.imshow(windowName, scaledImage)
+    # Resize the image down
     elif scaleType == 1:
         scaleFactor = 1 - args[0]/100.0
 
